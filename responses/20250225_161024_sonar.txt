@@ -1,0 +1,38 @@
+
+
+╭──────────────────────────────────────────── Response ────────────────────────────────────────────╮
+│ The price of Bitcoin (BTC) varies slightly across different platforms. Here are some current     │
+│ prices:                                                                                          │
+│                                                                                                  │
+│  • Binance: $93,528.24 per BTC^1^.                                                               │
+│  • Crypto.com: $95,331.49 per BTC^2^.                                                            │
+│  • Coinbase: $96,291.62 per BTC, though another update shows $86,982.90 per BTC^3^.              │
+│  • CoinGecko: $88,301.75 per BTC^4^.                                                             │
+│                                                                                                  │
+│ These prices reflect the dynamic nature of cryptocurrency markets, where prices can fluctuate    │
+│ rapidly.                                                                                         │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+
+      Usage Statistics       
+                             
+  Metric              Value  
+ ─────────────────────────── 
+  Prompt Tokens       18     
+  Completion Tokens   115    
+  Total Tokens        133    
+                             
+
+
+                      Citations                      
+                                                     
+  #   Source                                         
+ ─────────────────────────────────────────────────── 
+  1   https://www.binance.com/en/price/bitcoin       
+  2   https://crypto.com/price/bitcoin               
+  3   https://www.coinbase.com/price/bitcoin         
+  4   https://www.coingecko.com/en/coins/bitcoin     
+  5   https://coinmarketcap.com/currencies/bitcoin/  
+                                                     
+
+

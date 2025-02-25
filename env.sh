@@ -1,0 +1,1 @@
+alias run="uv run sonar.py"
