@@ -1,7 +1,7 @@
 from enum import Enum
-from typing import Dict, List
+from typing import Dict, List, Optional
 from pathlib import Path
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
 class SonarModels(Enum):
     SONAR_DEEP_RESEARCH = "sonar-deep-research"
@@ -15,8 +15,11 @@ class SonarRequest(BaseModel):
     model: SonarModels = SonarModels.SONAR
     system_prompt: str = "You are a helpful assistance that can answer questions."
     save_response: bool = True
+    prompt_text: Optional[str] = None
 
     def get_prompt(self) -> str:
+        if self.prompt_text is not None:
+            return self.prompt_text
         with open(self.prompt_path, "r") as f:
             return f.read()
 
